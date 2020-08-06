@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/maktab_CRM-Swally/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/maktab_CRM-Swally/static/js/main.eb0051d2.chunk.js",
+    "main.js.map": "/maktab_CRM-Swally/static/js/main.eb0051d2.chunk.js.map",
+    "runtime-main.js": "/maktab_CRM-Swally/static/js/runtime-main.fe048e55.js",
+    "runtime-main.js.map": "/maktab_CRM-Swally/static/js/runtime-main.fe048e55.js.map",
+    "static/js/2.4f1eea8d.chunk.js": "/maktab_CRM-Swally/static/js/2.4f1eea8d.chunk.js",
+    "static/js/2.4f1eea8d.chunk.js.map": "/maktab_CRM-Swally/static/js/2.4f1eea8d.chunk.js.map",
+    "index.html": "/maktab_CRM-Swally/index.html",
+    "precache-manifest.23db834d5b11c2428f4ffee2782779d1.js": "/maktab_CRM-Swally/precache-manifest.23db834d5b11c2428f4ffee2782779d1.js",
+    "service-worker.js": "/maktab_CRM-Swally/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/maktab_CRM-Swally/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.4f1eea8d.chunk.js.LICENSE.txt": "/maktab_CRM-Swally/static/js/2.4f1eea8d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe048e55.js",
+    "static/js/2.4f1eea8d.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.eb0051d2.chunk.js"
+  ]
+}
