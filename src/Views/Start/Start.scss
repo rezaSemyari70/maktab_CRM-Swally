@@ -1,0 +1,21 @@
+.StartBtn {
+    width: 170px;
+    height: 60px;
+    border-radius: 44px;
+    // border-style: solid;
+    // border-width: 5px;
+    // border-image-source: linear-gradient(to right, #9c9c9c54 0%, var(--faded-orange-10) 100%);
+    background-image: linear-gradient(to left, #ed865d, #f197bd );
+    // background-origin: border-box;
+    // background-clip: content-box, border-box;
+    font-family: Yekan !important;
+    font-size: 25px;
+    margin-bottom: 80px !important;
+    margin-top: 45px !important;
+}
+
+h1{
+    margin-top: 70px !important;
+    font-size: 36px !important;
+    font-weight: 600;
+}

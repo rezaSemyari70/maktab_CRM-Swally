@@ -1,4 +1,31 @@
-.App {
+@font-face {
+  font-family: YekanBakh;
+  src: url('./fonts/YekanBakhMedium.woff') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url('./fonts/Yekan.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: SignPainter HouseScript Regular;
+  src: url('./fonts/SignPainter\ HouseScript\ Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+.backgroundImage{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./image/blue_vector-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +62,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

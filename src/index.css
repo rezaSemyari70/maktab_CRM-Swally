@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Yekan !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: YekanBakh;
+  src: url('./fonts/YekanBakhMedium.woff') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url('./fonts/Yekan.ttf') format('truetype');
+  font-weight: normal;
+}
+
