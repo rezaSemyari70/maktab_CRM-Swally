@@ -16,6 +16,10 @@
   font-weight: normal;
 }
 
+*{
+  overflow-x: hidden !important;
+}
+
 .backgroundImage{
   width: 100vw;
   height: 100vh;

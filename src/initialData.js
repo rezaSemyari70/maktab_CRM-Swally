@@ -4,7 +4,7 @@ const initialData = {
     logo_url: "",
     questions: [
       {
-        id: "q1",
+        id: "1",
         text: "از کیفیت محصولات راضی هستید؟",
         options: [
           { key: 1, text: "آره" },
@@ -13,7 +13,7 @@ const initialData = {
         ],
       },
       {
-        id: "q2",
+        id: "2",
         text: "از تنوع محصولات راضی هستید؟",
         options: [
           { key: 1, text: "آره" },
@@ -22,7 +22,7 @@ const initialData = {
         ],
       },
       {
-        id: "q3",
+        id: "3",
         text: "زیبایی محصولات رو چطور ارزیابی می‌کنید؟",
         options: [
           { key: 1, text: "خیلی خوب" },
@@ -31,7 +31,7 @@ const initialData = {
         ],
       },
       {
-        id: "q4",
+        id: "4",
         text: "از زمان انتظار برای دریافت محصول راضی هستید؟",
         options: [
           { key: 1, text: "آره" },
@@ -40,7 +40,7 @@ const initialData = {
         ],
       },
       {
-        id: "q5",
+        id: "5",
         text: "قیمت محصولات رو چطور ارزیابی میکنید؟",
         options: [
           { key: 1, text: "خیلی خوب" },
@@ -49,7 +49,7 @@ const initialData = {
         ],
       },
       {
-        id: "q6",
+        id: "6",
         text: "از خدمات پس از فروش راضی هستید؟",
         options: [
           { key: 1, text: "خوبه" },
@@ -58,7 +58,7 @@ const initialData = {
         ],
       },
       {
-        id: "q7",
+        id: "7",
         text: "از بسته بندی محصولات رضایت دارید؟",
         options: [
           { key: 1, text: "خیلی خوبه" },
@@ -67,7 +67,7 @@ const initialData = {
         ],
       },
       {
-        id: "q8",
+        id: "8",
         text: "از نحوه برخورد پرسنل رضایت دارید؟",
         options: [
           { key: 1, text: "خیلی خوبه" },
@@ -76,7 +76,7 @@ const initialData = {
         ],
       },
       {
-        id: "q9",
+        id: "9",
         text: "آیا محصولات ما را به دیگران پیشنهاد میکنید؟",
         options: [
           { key: 1, text: "حتما" },
@@ -85,7 +85,7 @@ const initialData = {
         ],
       },
       {
-        id: "q10",
+        id: "10",
         text: "ارزیابی کلی شما از تولیدات ما چیست؟",
         options: [
           { key: 1, text: "عالیه" },
