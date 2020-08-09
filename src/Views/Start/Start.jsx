@@ -16,7 +16,7 @@ function Start({dataQuestions}) {
                         <Col>
                             <h1 className="text-white">فرم نظرسنجی و ارتفای سطح خدمت رسانی</h1>
                             <Logo dataQuestions={dataQuestions}/>
-                            <Link to="/">
+                            <Link to="/questions">
                                 <Button className="StartBtn">شروع</Button>
                             </Link>
                         </Col>
