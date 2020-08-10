@@ -12,8 +12,10 @@ import VideoLabelIcon from '@material-ui/icons/VideoLabel';
 import StepConnector from '@material-ui/core/StepConnector';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import {useHistory} from 'react-router-dom';
 
 import './Stepper.scss';
+import Questions from '../Questons/Questions';
 
 const QontoConnector = withStyles({
   alternativeLabel: {
@@ -229,22 +231,28 @@ function getStepContent(step) {
   }
 }
 
-export default function CustomizedSteppers() {
+export default function CustomizedSteppers({dataQuestions , handleNextStep}) {
   const classes = useStyles();
   const [activeStep, setActiveStep] = React.useState(0);
   const steps = getSteps();
+  let history = useHistory();
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    (activeStep > 8) ? history.push(`/end`) : history.push(`/questions/${activeStep }`) 
   };
 
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  };
+  // const handleBack = () => {
+  //   handleNextStep();
+  //   setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  //   history.push(`/questions/${activeStep - 1}`)
+    
+  // };
 
-  const handleReset = () => {
-    setActiveStep(0);
-  };
+  // const handleReset = () => {
+  //   setActiveStep(0);
+  //   history.push(`/questions/1`)
+  // };
 
   return (
     <div className={classes.root}>
@@ -261,28 +269,31 @@ export default function CustomizedSteppers() {
         {activeStep === steps.length ? (
           <div className="text-center">
             
-            <Button className="resetBtn" onClick={handleReset} >
+            {/* <Button className="resetBtn" onClick={handleReset} >
               نظرسنجی مجدد
-            </Button>
+            </Button> */}
           </div>
         ) : (
           <div>
             <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>
             <div className="text-center">
-              <Button disabled={activeStep === 0} onClick={handleBack} className="text-center backBtn">
+              {/* <Button disabled={activeStep === 0} onClick={handleBack} className="text-center backBtn">
                 قبلی
-              </Button>{'  '}
-              <Button
+              </Button>{'  '} */}
+              {/* <Button
                 variant="contained"
                 color="primary"
                 onClick={handleNext}
                 className="next-finish-Btn"
               >
                 {activeStep === steps.length - 1 ? 'پایان' : 'بعدی'}
-              </Button>
+              </Button> */}
             </div>
           </div>
         )}
+      </div>
+      <div>
+        <Questions handleNext={handleNext}  dataQuestions={dataQuestions}/>
       </div>
     </div>
   );
