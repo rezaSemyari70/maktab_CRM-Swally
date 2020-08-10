@@ -6,6 +6,7 @@ import Start from './Views/Start/Start';
 import initialData from './initialData';
 // import Questions from './Components/Questons/Questions';
 import Stepper from './Components/Stepper/Stepper'
+import End from './Views/End/End';
 
 
 
@@ -21,6 +22,7 @@ function App() {
                         <Stepper dataQuestions ={dataQuestions}/>
                     </Route>
                     <Route exact path="/end">
+                        <End dataQuestions ={dataQuestions}/>
                     </Route>
                     <Route exact path="/">
                       <Start dataQuestions ={dataQuestions}/>

@@ -16,6 +16,9 @@ import {useHistory} from 'react-router-dom';
 
 import './Stepper.scss';
 import Questions from '../Questons/Questions';
+import { Row, Col } from 'reactstrap';
+import PoweredBy from '../PoweredBy/PoweredBy';
+import Logo from '../Logo/Logo';
 
 const QontoConnector = withStyles({
   alternativeLabel: {
@@ -177,7 +180,7 @@ ColorlibStepIcon.propTypes = {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: '10%',
   },
   button: {
     marginRight: theme.spacing(1),
@@ -255,16 +258,18 @@ export default function CustomizedSteppers({dataQuestions , handleNextStep}) {
   // };
 
   return (
-    <div className={classes.root}>
+    <div  style={{overflowY:'hidden'}}>
       
-      {document.getElementsByClassName('MuiStepIcon-text').value = ''}
-      <Stepper alternativeLabel activeStep={activeStep} connector={<ColorlibConnector />}>
-        {steps.map((label) => (
-          <Step key={label}>
-            <StepLabel >{label}</StepLabel>
-          </Step>
-        ))}
-      </Stepper>
+      <Row className="justify-content-center stepperContent">
+        {document.getElementsByClassName('MuiStepIcon-text').value = ''}
+        <Stepper alternativeLabel activeStep={activeStep} connector={<ColorlibConnector />}>
+          {steps.map((label) => (
+            <Step key={label}>
+              <StepLabel >{label}</StepLabel>
+            </Step>
+          ))}
+        </Stepper>
+      </Row>
       <div>
         {activeStep === steps.length ? (
           <div className="text-center">
@@ -292,9 +297,21 @@ export default function CustomizedSteppers({dataQuestions , handleNextStep}) {
           </div>
         )}
       </div>
-      <div>
-        <Questions handleNext={handleNext}  dataQuestions={dataQuestions}/>
-      </div>
+      <Row>
+        <Col>
+          <Row className="justify-content-center">
+            <Col>
+              <Questions handleNext={handleNext}  dataQuestions={dataQuestions}/>
+            </Col>
+          </Row>
+          <Row className="d-block d-md-flex justify-content-between align-items-center footerQuestions px-5 order">
+            <Row  className="justify-content-center order-0">
+              <Logo dataQuestions={dataQuestions}/>
+            </Row >
+              <PoweredBy md={{ order:2 }}/>
+          </Row>
+        </Col>
+      </Row>
     </div>
   );
 }

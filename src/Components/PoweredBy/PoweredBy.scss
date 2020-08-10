@@ -14,9 +14,19 @@
     // font-family: Yekan;
 }
 
+.poweredByStart{
+    margin-top: 100px ;
+}
+
 .aboutPower{
     font-size: 15px !important;
     font-family: Yekan !important;
     margin-top: 8px;
     font-weight: 500;
+}
+
+@media (max-width: 575.98px) { 
+    .poweredByStart{
+        margin-top: 30px !important;
+    }  
 }

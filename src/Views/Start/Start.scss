@@ -10,13 +10,23 @@
     // background-clip: content-box, border-box;
     font-family: Yekan !important;
     font-size: 25px;
-    margin-bottom: 80px !important;
-    margin-top: 45px !important;
+    margin-bottom: 100px !important;
+    margin-top: 25px !important;
 }
 
-h1{
+.titleStart{
     margin-top: 80px !important;
     font-size: 36px !important;
-    font-weight: 600;
+    font-weight: 600;   
+}
+
+@media (max-width: 767.98px) { 
+    .StartBtn{
+        margin-bottom: 120px !important ;
+    }  
     
+    .titleStart{
+        font-size: 25px !important;
+        padding: 0px 40px !important;
+    }
 }

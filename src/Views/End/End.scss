@@ -1,0 +1,27 @@
+.titleEnd{
+    margin-top: 150px !important;
+}
+
+.logoEndPage{
+    margin-top:0px !important;
+}
+
+.powerByEndPage{
+    margin-top: 100px !important;
+}
+
+@media (max-width: 575.98px) { 
+    .logoEndPage{
+        margin-bottom: 50px !important;
+    }
+
+    .titleEnd{
+        margin-top: 100px !important;
+        font-size: 25px !important;
+        padding: 0px 30px !important;
+    }
+
+    .powerByEndPage{
+        margin-top: 180px !important;
+    }
+}

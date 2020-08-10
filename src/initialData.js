@@ -1,7 +1,7 @@
 const initialData = {
     organization_name: "Logo",
     organization_name_fa: "لوگو",
-    logo_url: "",
+    logo_url: "https://logodownload.org/wp-content/uploads/2019/08/alba-logo-0.png",
     questions: [
       {
         id: "1",
@@ -80,7 +80,7 @@ const initialData = {
         text: "آیا محصولات ما را به دیگران پیشنهاد میکنید؟",
         options: [
           { key: 1, text: "حتما" },
-          { key: 2, text: "مطمين نیستم" },
+          { key: 2, text: "مطمئن نیستم" },
           { key: 3, text: "به هیچ وجه" },
         ],
       },

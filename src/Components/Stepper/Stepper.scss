@@ -16,9 +16,18 @@
     color:  white;
 }
 
+
+.MuiStepLabel-root{
+    max-width: 60vw !important;
+}
+
+.MuiStepLabel-root circle{
+    margin: 0px 30px !important;
+}
+
 .MuiStep-root{
     padding: 0px !important;
-    
+    margin: 0px 10px !important;
 }
 
 .MuiStepIcon-root {
@@ -45,3 +54,33 @@
     !important;
 }
 
+.footerQuestions{
+    margin-top: 120px !important;
+    direction: rtl !important;
+
+    img{
+        margin-top: 50px !important;
+    }
+}
+
+.MuiStepIcon-text{
+    background-color: rgb(255, 255, 0) !important;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+    .footerQuestions{
+        margin-top: -30px !important;
+        img{
+            margin-top: 0px !important;
+        }
+    }
+    .MuiPaper-root{
+        max-width: 100vw !important;  
+    }
+    .MuiStep-root{
+        margin: 0px 2px !important;
+    }
+}

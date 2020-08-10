@@ -1,0 +1,29 @@
+.btnOption{
+    width: auto !important;
+    height: 55px;
+    min-width: 50px !important;
+    border-radius: 44px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #df5e88 !important;
+    font-size: 22px !important;
+}
+
+.btnDirection{
+    direction: ltr !important;
+    padding: 0px !important;
+}
+
+.titleQuestion{
+    margin-top: 100px !important;
+    margin-bottom: 30px !important;
+}
+
+@media (max-width: 991.98px) { 
+    .titleQuestion{
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+        font-size: 25px !important;
+        padding: 0px 20px !important;
+    }
+}

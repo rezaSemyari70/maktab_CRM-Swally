@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: Yekan !important;
 }
+*{
+  overflow: hidden !important;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -5,7 +5,7 @@ import './PoweredBy.scss';
 
 function PoweredBy() {
     return (
-        <Row>
+        <Row className="poweredByStart">
             <Col>
                 <Row className="text-center">
                     <Col>
