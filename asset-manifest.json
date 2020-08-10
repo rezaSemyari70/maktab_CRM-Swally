@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/maktab_CRM-Swally/static/css/main.8b9f825d.chunk.css",
-    "main.js": "/maktab_CRM-Swally/static/js/main.95629c48.chunk.js",
-    "main.js.map": "/maktab_CRM-Swally/static/js/main.95629c48.chunk.js.map",
+    "main.css": "/maktab_CRM-Swally/static/css/main.40d30120.chunk.css",
+    "main.js": "/maktab_CRM-Swally/static/js/main.33fcba24.chunk.js",
+    "main.js.map": "/maktab_CRM-Swally/static/js/main.33fcba24.chunk.js.map",
     "runtime-main.js": "/maktab_CRM-Swally/static/js/runtime-main.fe048e55.js",
     "runtime-main.js.map": "/maktab_CRM-Swally/static/js/runtime-main.fe048e55.js.map",
     "static/css/2.2a21256c.chunk.css": "/maktab_CRM-Swally/static/css/2.2a21256c.chunk.css",
     "static/js/2.a2ac4394.chunk.js": "/maktab_CRM-Swally/static/js/2.a2ac4394.chunk.js",
     "static/js/2.a2ac4394.chunk.js.map": "/maktab_CRM-Swally/static/js/2.a2ac4394.chunk.js.map",
     "index.html": "/maktab_CRM-Swally/index.html",
-    "precache-manifest.7dedfc59bf10b35770cffff077c64ca8.js": "/maktab_CRM-Swally/precache-manifest.7dedfc59bf10b35770cffff077c64ca8.js",
+    "precache-manifest.1af3d2cad0dfaf60ac65ad6faecc637f.js": "/maktab_CRM-Swally/precache-manifest.1af3d2cad0dfaf60ac65ad6faecc637f.js",
     "service-worker.js": "/maktab_CRM-Swally/service-worker.js",
     "static/css/2.2a21256c.chunk.css.map": "/maktab_CRM-Swally/static/css/2.2a21256c.chunk.css.map",
-    "static/css/main.8b9f825d.chunk.css.map": "/maktab_CRM-Swally/static/css/main.8b9f825d.chunk.css.map",
+    "static/css/main.40d30120.chunk.css.map": "/maktab_CRM-Swally/static/css/main.40d30120.chunk.css.map",
     "static/js/2.a2ac4394.chunk.js.LICENSE.txt": "/maktab_CRM-Swally/static/js/2.a2ac4394.chunk.js.LICENSE.txt",
     "static/media/App.css": "/maktab_CRM-Swally/static/media/blue_vector-wallpaper.f384ba1c.jpg",
     "static/media/mdb.css": "/maktab_CRM-Swally/static/media/arrow_right.8ef6a08c.svg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.fe048e55.js",
     "static/css/2.2a21256c.chunk.css",
     "static/js/2.a2ac4394.chunk.js",
-    "static/css/main.8b9f825d.chunk.css",
-    "static/js/main.95629c48.chunk.js"
+    "static/css/main.40d30120.chunk.css",
+    "static/js/main.33fcba24.chunk.js"
   ]
 }
