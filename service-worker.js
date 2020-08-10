@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/maktab_CRM-Swally/precache-manifest.335ffefc517146602c132e72279ebf00.js"
+  "/maktab_CRM-Swally/precache-manifest.7dedfc59bf10b35770cffff077c64ca8.js"
 );
 
 self.addEventListener('message', (event) => {
