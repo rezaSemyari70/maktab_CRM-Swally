@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "990e8862717c41fb87b3a0921537d378",
+    "revision": "207ca60541c89838bd82199b07839766",
     "url": "/maktab_CRM-Swally/index.html"
   },
   {
-    "revision": "117d7903d6f76e8135ef",
+    "revision": "6cc146b334824231d1f6",
     "url": "/maktab_CRM-Swally/static/css/2.2a21256c.chunk.css"
   },
   {
-    "revision": "69701466accec994cb4c",
-    "url": "/maktab_CRM-Swally/static/css/main.0b9ff4c9.chunk.css"
+    "revision": "97f4cf300e5b8877fc16",
+    "url": "/maktab_CRM-Swally/static/css/main.324b5972.chunk.css"
   },
   {
-    "revision": "117d7903d6f76e8135ef",
-    "url": "/maktab_CRM-Swally/static/js/2.ccff28d8.chunk.js"
+    "revision": "6cc146b334824231d1f6",
+    "url": "/maktab_CRM-Swally/static/js/2.37db8c95.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/maktab_CRM-Swally/static/js/2.ccff28d8.chunk.js.LICENSE.txt"
+    "url": "/maktab_CRM-Swally/static/js/2.37db8c95.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "69701466accec994cb4c",
-    "url": "/maktab_CRM-Swally/static/js/main.bb278daf.chunk.js"
+    "revision": "97f4cf300e5b8877fc16",
+    "url": "/maktab_CRM-Swally/static/js/main.328e909b.chunk.js"
   },
   {
     "revision": "7a696ae1d8487fc3210e",

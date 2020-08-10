@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/maktab_CRM-Swally/static/css/main.0b9ff4c9.chunk.css",
-    "main.js": "/maktab_CRM-Swally/static/js/main.bb278daf.chunk.js",
-    "main.js.map": "/maktab_CRM-Swally/static/js/main.bb278daf.chunk.js.map",
+    "main.css": "/maktab_CRM-Swally/static/css/main.324b5972.chunk.css",
+    "main.js": "/maktab_CRM-Swally/static/js/main.328e909b.chunk.js",
+    "main.js.map": "/maktab_CRM-Swally/static/js/main.328e909b.chunk.js.map",
     "runtime-main.js": "/maktab_CRM-Swally/static/js/runtime-main.fe048e55.js",
     "runtime-main.js.map": "/maktab_CRM-Swally/static/js/runtime-main.fe048e55.js.map",
     "static/css/2.2a21256c.chunk.css": "/maktab_CRM-Swally/static/css/2.2a21256c.chunk.css",
-    "static/js/2.ccff28d8.chunk.js": "/maktab_CRM-Swally/static/js/2.ccff28d8.chunk.js",
-    "static/js/2.ccff28d8.chunk.js.map": "/maktab_CRM-Swally/static/js/2.ccff28d8.chunk.js.map",
+    "static/js/2.37db8c95.chunk.js": "/maktab_CRM-Swally/static/js/2.37db8c95.chunk.js",
+    "static/js/2.37db8c95.chunk.js.map": "/maktab_CRM-Swally/static/js/2.37db8c95.chunk.js.map",
     "index.html": "/maktab_CRM-Swally/index.html",
-    "precache-manifest.a7b850b37553208b2b407c042fc90a18.js": "/maktab_CRM-Swally/precache-manifest.a7b850b37553208b2b407c042fc90a18.js",
+    "precache-manifest.335ffefc517146602c132e72279ebf00.js": "/maktab_CRM-Swally/precache-manifest.335ffefc517146602c132e72279ebf00.js",
     "service-worker.js": "/maktab_CRM-Swally/service-worker.js",
     "static/css/2.2a21256c.chunk.css.map": "/maktab_CRM-Swally/static/css/2.2a21256c.chunk.css.map",
-    "static/css/main.0b9ff4c9.chunk.css.map": "/maktab_CRM-Swally/static/css/main.0b9ff4c9.chunk.css.map",
-    "static/js/2.ccff28d8.chunk.js.LICENSE.txt": "/maktab_CRM-Swally/static/js/2.ccff28d8.chunk.js.LICENSE.txt",
+    "static/css/main.324b5972.chunk.css.map": "/maktab_CRM-Swally/static/css/main.324b5972.chunk.css.map",
+    "static/js/2.37db8c95.chunk.js.LICENSE.txt": "/maktab_CRM-Swally/static/js/2.37db8c95.chunk.js.LICENSE.txt",
     "static/media/App.css": "/maktab_CRM-Swally/static/media/blue_vector-wallpaper.f384ba1c.jpg",
     "static/media/mdb.css": "/maktab_CRM-Swally/static/media/arrow_right.8ef6a08c.svg",
     "static/media/all.min.css": "/maktab_CRM-Swally/static/media/fa-solid-900.ee09ad75.woff"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.fe048e55.js",
     "static/css/2.2a21256c.chunk.css",
-    "static/js/2.ccff28d8.chunk.js",
-    "static/css/main.0b9ff4c9.chunk.css",
-    "static/js/main.bb278daf.chunk.js"
+    "static/js/2.37db8c95.chunk.js",
+    "static/css/main.324b5972.chunk.css",
+    "static/js/main.328e909b.chunk.js"
   ]
 }
